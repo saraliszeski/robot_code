@@ -6,10 +6,10 @@ LX16A.initialize("COM5")
 
 try:
     servo1 = LX16A(1)#knee
-    servo3 = LX16A(3)#hip2
-    servo2 = LX16A(2)#knee
+    servo3 = LX16A(3)#hip
+    servo2 = LX16A(2)#hip
     servo4 = LX16A(4)#knee
-    servo5 = LX16A(5)#knee
+    servo5 = LX16A(5)#hip
     servo6 = LX16A(6)#hip
     servo1.set_angle_offset(-30.00)
     servo1.set_angle_limits(0, 180)
