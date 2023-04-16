@@ -1,4 +1,4 @@
-import pybullet as p
+    import pybullet as p
 import time
 import numpy as np
 import pybullet_data
@@ -11,7 +11,7 @@ robotStartOrientation = p.getQuaternionFromEuler([0,0,0])
 mode = p.POSITION_CONTROL
 robotId = p.loadURDF("jake.urdf", robotStartPos, robotStartOrientation)
 joints = [2,4,6,10,12, 14]
-time.sleep(4)
+time.sleep(1)
 #best params from hillclimber:
 #   [[1.4590984345374207, 0.461585909369459, 0.045346267881847924]
 #    [1.3759019682649325, 0.9924465584425969, 0.045346267881847924], 
