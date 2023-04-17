@@ -11,7 +11,7 @@ robotId = p.loadURDF(r"C:\Users\jmann\robotstuff\robot_code\URDFs\footjointlimit
                    # useMaximalCoordinates=1, ## New feature in Pybullet
                    flags=p.URDF_USE_INERTIA_FROM_FILE)
 for i in range (10000):
-    p.stepSimulation()
+    p.stepSimulation() #hi
     time.sleep(1./240.)
 cubePos, cubeOrn = p.getBasePositionAndOrientation(robotId)
 print(cubePos,cubeOrn)
