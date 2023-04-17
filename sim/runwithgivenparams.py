@@ -1,4 +1,4 @@
-    import pybullet as p
+import pybullet as p
 import time
 import numpy as np
 import pybullet_data

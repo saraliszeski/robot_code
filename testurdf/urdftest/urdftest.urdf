@@ -1,0 +1,222 @@
+<?xml version="1.0" ?>
+<robot name="urdftest">
+
+<material name="silver">
+  <color rgba="0.700 0.700 0.700 1.000"/>
+</material>
+
+<link name="base_link">
+  <inertial>
+    <origin xyz="0.17141704534844696 0.20619579715239092 0.09466577645701353" rpy="0 0 0"/>
+    <mass value="0.98125"/>
+    <inertia ixx="0.00040885416666665286" iyy="0.00040885416666665286" izz="0.00040885416666666674" ixy="0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+    <material/>
+  </visual>
+  <collision>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="meshes/base_link.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="GOODRIGHTLEG_v111Jake_Hip_Mount_v121">
+  <inertial>
+    <origin xyz="-0.0034024121254011552 -0.020599057823683237 -2.245869164113623e-07" rpy="0 0 0"/>
+    <mass value="0.002127030917238079"/>
+    <inertia ixx="9.648084755402037e-07" iyy="5.005585549120378e-07" izz="9.430966968339109e-07" ixy="-1.0072694535572034e-07" iyz="4.059699489555521e-14" ixz="2.3205382385614592e-14"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.171417 -0.181196 -0.094666" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="meshes/GOODRIGHTLEG_v111Jake_Hip_Mount_v121.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+    <material/>
+  </visual>
+  <collision>
+    <origin xyz="-0.171417 -0.181196 -0.094666" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="meshes/GOODRIGHTLEG_v111Jake_Hip_Mount_v121.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="GOODRIGHTLEG_v111Jake_Hip_Mount_v12_11">
+  <inertial>
+    <origin xyz="0.020599328895949426 0.010450874626276252 -1.7249901231031206e-07" rpy="0 0 0"/>
+    <mass value="0.002127030917238079"/>
+    <inertia ixx="5.005585549120513e-07" iyy="9.648084755402308e-07" izz="9.430966968339109e-07" ixy="-1.0072694535570679e-07" iyz="2.3205382385614592e-14" ixz="4.059700167181879e-14"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.191563 -0.138919 -0.094666" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="meshes/GOODRIGHTLEG_v111Jake_Hip_Mount_v12_11.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+    <material/>
+  </visual>
+  <collision>
+    <origin xyz="-0.191563 -0.138919 -0.094666" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="meshes/GOODRIGHTLEG_v111Jake_Hip_Mount_v12_11.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="GOODRIGHTLEG_v111Jake_Thigh_STEP_v11">
+  <inertial>
+    <origin xyz="0.00022403825388414567 -0.00396540776964717 -0.027063170774140013" rpy="0 0 0"/>
+    <mass value="0.015625116465443335"/>
+    <inertia ixx="1.3841902457514376e-05" iyy="1.3945673031056142e-05" izz="4.517298144744893e-06" ixy="-1.274217613258903e-09" iyz="2.448492544033311e-06" ixz="1.1259477269331053e-07"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.23384 -0.125821 -0.094666" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="meshes/GOODRIGHTLEG_v111Jake_Thigh_STEP_v11.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+    <material/>
+  </visual>
+  <collision>
+    <origin xyz="-0.23384 -0.125821 -0.094666" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="meshes/GOODRIGHTLEG_v111Jake_Thigh_STEP_v11.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="GOODRIGHTLEG_v111Jake_Servo_with_Flywheel_v31old_component1">
+  <inertial>
+    <origin xyz="0.05044300833574647 0.5250115968786414 0.1586447547651681" rpy="0 0 0"/>
+    <mass value="0.05200108715490274"/>
+    <inertia ixx="1.3509763471800844e-05" iyy="1.1411737965950734e-05" izz="7.325697356363493e-06" ixy="1.7496581765884256e-10" iyz="-4.3919712799844117e-07" ixz="-2.36025304660957e-11"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.18353 0.379568 0.139308" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="meshes/GOODRIGHTLEG_v111Jake_Servo_with_Flywheel_v31old_component1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+    <material/>
+  </visual>
+  <collision>
+    <origin xyz="-0.18353 0.379568 0.139308" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="meshes/GOODRIGHTLEG_v111Jake_Servo_with_Flywheel_v31old_component1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="GOODRIGHTLEG_v111Jake_Servo_with_Flywheel_v3_11old_component_11">
+  <inertial>
+    <origin xyz="0.06652198705080534 0.16365873907572842 0.080550168721586" rpy="0 0 0"/>
+    <mass value="0.05200108715490274"/>
+    <inertia ixx="1.14117379659503e-05" iyy="7.325697356364361e-06" izz="1.3509763471801061e-05" ixy="4.391971279986851e-07" iyz="2.3602530411885592e-11" ixz="1.7496581744200213e-10"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.106379 0.011842 -0.014116" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="meshes/GOODRIGHTLEG_v111Jake_Servo_with_Flywheel_v3_11old_component_11.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+    <material/>
+  </visual>
+  <collision>
+    <origin xyz="-0.106379 0.011842 -0.014116" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="meshes/GOODRIGHTLEG_v111Jake_Servo_with_Flywheel_v3_11old_component_11.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="GOODRIGHTLEG_v111Jake_Servo_with_Flywheel_v3_21old_component_21">
+  <inertial>
+    <origin xyz="-0.15217146800346198 0.5338104754500698 -0.0805505658075147" rpy="0 0 0"/>
+    <mass value="0.05200108715490274"/>
+    <inertia ixx="7.325697356364144e-06" iyy="1.14117379659503e-05" izz="1.3509763471800627e-05" ixy="4.3919712799825143e-07" iyz="1.7496581765884256e-10" ixz="2.360253052030581e-11"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.373114 0.389327 -0.175216" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="meshes/GOODRIGHTLEG_v111Jake_Servo_with_Flywheel_v3_21old_component_21.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+    <material/>
+  </visual>
+  <collision>
+    <origin xyz="-0.373114 0.389327 -0.175216" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="meshes/GOODRIGHTLEG_v111Jake_Servo_with_Flywheel_v3_21old_component_21.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<joint name="Rigid_5" type="fixed">
+  <origin xyz="0.171417 0.181196 0.094666" rpy="0 0 0"/>
+  <parent link="base_link"/>
+  <child link="GOODRIGHTLEG_v111Jake_Hip_Mount_v121"/>
+</joint>
+
+<joint name="GOODRIGHTLEG_v111_Revolute 8" type="revolute">
+  <origin xyz="0.085184 0.150761 0.08055" rpy="0 0 0"/>
+  <parent link="GOODRIGHTLEG_v111Jake_Servo_with_Flywheel_v3_11old_component_11"/>
+  <child link="GOODRIGHTLEG_v111Jake_Hip_Mount_v12_11"/>
+  <axis xyz="1.0 -0.0 0.0"/>
+  <limit upper="0.872665" lower="-0.349066" effort="100" velocity="100"/>
+</joint>
+<transmission name="GOODRIGHTLEG_v111_Revolute 8_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="GOODRIGHTLEG_v111_Revolute 8">
+    <hardwareInterface>PositionJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="GOODRIGHTLEG_v111_Revolute 8_actr">
+    <hardwareInterface>PositionJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<joint name="GOODRIGHTLEG_v111_Revolute 13" type="revolute">
+  <origin xyz="-0.139274 0.515148 -0.08055" rpy="0 0 0"/>
+  <parent link="GOODRIGHTLEG_v111Jake_Servo_with_Flywheel_v3_21old_component_21"/>
+  <child link="GOODRIGHTLEG_v111Jake_Thigh_STEP_v11"/>
+  <axis xyz="-0.0 -1.0 -0.0"/>
+  <limit upper="1.22173" lower="-0.785398" effort="100" velocity="100"/>
+</joint>
+<transmission name="GOODRIGHTLEG_v111_Revolute 13_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="GOODRIGHTLEG_v111_Revolute 13">
+    <hardwareInterface>PositionJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="GOODRIGHTLEG_v111_Revolute 13_actr">
+    <hardwareInterface>PositionJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<joint name="GOODRIGHTLEG_v111_Rigid 14" type="fixed">
+  <origin xyz="-0.05031 -0.505389 -0.233974" rpy="0 0 0"/>
+  <parent link="GOODRIGHTLEG_v111Jake_Thigh_STEP_v11"/>
+  <child link="GOODRIGHTLEG_v111Jake_Servo_with_Flywheel_v31old_component1"/>
+</joint>
+
+<joint name="GOODRIGHTLEG_v111_Rigid 17" type="fixed">
+  <origin xyz="-0.065038 -0.193038 -0.08055" rpy="0 0 0"/>
+  <parent link="GOODRIGHTLEG_v111Jake_Hip_Mount_v121"/>
+  <child link="GOODRIGHTLEG_v111Jake_Servo_with_Flywheel_v3_11old_component_11"/>
+</joint>
+
+<joint name="GOODRIGHTLEG_v111_Rigid 18" type="fixed">
+  <origin xyz="0.181551 -0.528246 0.08055" rpy="0 0 0"/>
+  <parent link="GOODRIGHTLEG_v111Jake_Hip_Mount_v12_11"/>
+  <child link="GOODRIGHTLEG_v111Jake_Servo_with_Flywheel_v3_21old_component_21"/>
+</joint>
+
+</robot>
