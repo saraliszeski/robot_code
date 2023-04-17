@@ -32,13 +32,13 @@ for overall_run in range(100):
     #run 200  times, adjust by percentages at each point
     for inner_run in range(100):
         print("INNER RUN NUMBER: ", inner_run)
-        physicsClient = p.connect(p.DIRECT)#or p.DIRECT for non-graphical version
+        physicsClient = p.connect(p.GUI)#or p.DIRECT for non-graphical version
         p.setAdditionalSearchPath(pybullet_data.getDataPath()) #optionally
         p.setGravity(0,0,-9.81)
         groundId = p.loadURDF("plane.urdf")
         robotStartPos = [0,0,0.18]
         robotStartOrientation = p.getQuaternionFromEuler([0,0,0])
-        robotId = p.loadURDF("jake.urdf", robotStartPos, robotStartOrientation)
+        robotId = p.loadURDF(r"URDFs\feetasrigidjts\jake.urdf", robotStartPos, robotStartOrientation)
         mode = p.POSITION_CONTROL
         time.sleep(0.05)
         
