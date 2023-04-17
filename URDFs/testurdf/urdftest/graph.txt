@@ -1,7 +1,0 @@
-digraph G {  "base_link" -> "GOODRIGHTLEG_v111Jake_Hip_Mount_v121" [ label = "Rigid_5" ] 
-  "GOODRIGHTLEG_v111Jake_Servo_with_Flywheel_v3_11old_component_11" -> "GOODRIGHTLEG_v111Jake_Hip_Mount_v12_11" [ label = "GOODRIGHTLEG_v111_Revolute 8" ] 
-  "GOODRIGHTLEG_v111Jake_Servo_with_Flywheel_v3_21old_component_21" -> "GOODRIGHTLEG_v111Jake_Thigh_STEP_v11" [ label = "GOODRIGHTLEG_v111_Revolute 13" ] 
-  "GOODRIGHTLEG_v111Jake_Thigh_STEP_v11" -> "GOODRIGHTLEG_v111Jake_Servo_with_Flywheel_v31old_component1" [ label = "GOODRIGHTLEG_v111_Rigid 14" ] 
-  "GOODRIGHTLEG_v111Jake_Hip_Mount_v121" -> "GOODRIGHTLEG_v111Jake_Servo_with_Flywheel_v3_11old_component_11" [ label = "GOODRIGHTLEG_v111_Rigid 17" ] 
-  "GOODRIGHTLEG_v111Jake_Hip_Mount_v12_11" -> "GOODRIGHTLEG_v111Jake_Servo_with_Flywheel_v3_21old_component_21" [ label = "GOODRIGHTLEG_v111_Rigid 18" ] 
-}
